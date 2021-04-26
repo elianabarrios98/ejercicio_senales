@@ -9,6 +9,7 @@ var instancesCount = 0
 
 
 func _ready():
+	add_to_group("blocks")
 	# Inicializa el texto de "CountLabel" usando el texto
 	# Constante "INSTANCES_TEXT" más el valor de "instancesCount" como Texto
 	$CountLabel.text = INSTANCES_TEXT + String(instancesCount)
