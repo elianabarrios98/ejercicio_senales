@@ -5,7 +5,5 @@ func _ready():
 	pass
 	
 func delete():
-	var cantidadBloques = .get_child_count()
-	if cantidadBloques > 0:
-		get_child(cantidadBloques).queue_free()
+	queue_free()
 	pass
