@@ -1,5 +1,4 @@
 extends RigidBody2D
-var cantidadBloques = 0
 func _ready():
 	add_to_group("blocks")
 	pass
